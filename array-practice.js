@@ -7,11 +7,11 @@ for (var i = 0; i < people.length; i++){
 }
 // 2. Write the command to remove "Greg" from the array.
 console.log("NO.2");
-people.shift("Greg");
+people.shift();
 console.log(people);
 // 3. Write the command to remove "James" from the array.
 console.log("NO.3");
-people.pop("James");
+people.pop();
 console.log(people);
 // 4. Write the command to add "Matt" to the front of the array.
 console.log("NO.4");
@@ -31,7 +31,7 @@ for (var i = 0; i < people.length; i++){
 }
 // 7. Write the command to make a copy of the array using slice. The copy should NOT include "Mary" or "Matt".
 console.log("NO.7");
-console.log(people.slice("2"));
+console.log(people.slice(2));
 // 8. Write the command that gives the indexOf where "Mary" is located.
 console.log("NO.8");
 console.log(people.indexOf("Mary"));
